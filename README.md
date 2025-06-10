@@ -11,3 +11,7 @@ https://gymcoding.notion.site/HTML-CSS-706749085a29449bb066957e56686365
 # Emmet
 
 https://inpa.tistory.com/entry/HTML-%F0%9F%8E%A8-Emmet-%EB%AC%B8%EB%B2%95-%EC%A0%95%EB%A6%AC#html_%EC%86%8D%EC%84%B1_emmet
+
+# https://www.youtube.com/watch?v=S_40GQe6hqM&list=PLlaP-jSd-nK-ponbKDjrSn3BQG9MgHSKv&index=10
+
+ep05

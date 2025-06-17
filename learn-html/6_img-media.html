@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>img media</title>
+  </head>
+  <body>
+    <!--alt는 이미지 설명문, 
+    alt는 네트워크 오류,콘텐츠 차단,죽은 링크등 이미지를 표시할 수 없는 경우 alt값을 보여주므로 꼭 넣어주는게 좋다-->
+    <h2>이미지 태그</h2>
+    <!--상위 디렉토리를 찾아갈때는 ../ 이렇게 작성해줘야 한다-->
+    <!-- ../ = 현재 폴더 말고 상위 폴더에서 가지고 올때는 이렇게 사용 -->
+    <img width="200" src="../lighthouse-6785763_1280.jpg" alt="은하수" />
+    <img height="120" src="../lighthouse-6785763_1280.jpg" alt="은하수" />
+    <!-- ./ = 이거는 현재 폴더 위치-->
+    <img height="120" src="./늑대.png" alt="늑대" />
+    <!-- 하위폴더/ = 하위 폴더에 있는 이미지를 가지고 올때는 하위폴더 이름을 작성해서 가지고 와야 한다 -->
+    <img height="120" src="images/은하수.jpg" alt="은하수2" />
+  </body>
+</html>

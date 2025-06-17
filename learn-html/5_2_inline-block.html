@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inline Block 2</title>
+
+    <style>
+      div {
+        /*block요소들은 div랑 똑같이 적용된다 */
+        /*div는 세로배치*/
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        border: 1px solid blue; /*border는 테두리를 뜻한다  */
+      }
+
+      span {
+        /*span은 가로배치*/
+        /*span은 가로 세로를 조절 불가능*/
+        /*테두리는 적용된다*/
+        /*inline 요소들은  span이랑 똑같이 적용 안되는게 같다*/
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <span>1</span><span>2</span><span>3</span>
+  </body>
+</html>

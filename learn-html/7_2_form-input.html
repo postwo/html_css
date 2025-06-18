@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Input</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <!-- fieldset 테두리로 그룹화한다-->
+        <legend>Input Tag</legend>
+        <ul>
+          <li>
+            <!--label에 for="email"은 input에 있는 id값하고 일치해야한다-->
+            <!-- for="email"은 id="email"을 가진 input 요소와 연결하면 <label>을 클릭했을 때 해당 input에 포커스가 가게 된다-->
+            <label for="email">이메일</label>
+            <!-- type="email" 하고 text와 다른점은 email은 서버로 전송할때 이메일 규칙에 맞게 유효성 체크를 해준다-->
+            <!--required를 사용하면 서버쪽으로 데이터를 전송할때 필수값을 체크힌다 입력란을 입력하라고 뜬다-->
+            <input type="email" id="email" required />
+          </li>
+          <li>
+            <label for="tel">전화번호</label>
+            <input type="tel" id="tel" required />
+          </li>
+          <li>
+            <label for="color">color</label>
+            <input type="color" id="color" required />
+          </li>
+          <li>
+            <label for="url">url</label>
+            <input type="url" id="url" required />
+          </li>
+          <li>
+            <label for="number">number</label>
+            <input type="number" id="number" required min="5" max="10" />
+          </li>
+          <li>
+            <label for="range">range</label>
+            <input type="range" id="range" required />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>날짜 관련</legend>
+        <ul>
+          <li>
+            <label for="date">date</label>
+            <input type="date" id="date" min="2021-07-10" max="2021-07-15" />
+          </li>
+          <li>
+            <label for="month">month</label>
+            <input type="month" id="month" />
+          </li>
+          <li>
+            <label for="week">week</label>
+            <input type="week" id="week" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>시간 관련</legend>
+        <ul>
+          <li>
+            <label for="time">time</label>
+            <input type="time" id="time" min="16:00" max="18:00" />
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>그 외</legend>
+        <ul>
+          <li>
+            <input type="file" />
+            <!--multiple을 넣으면 파일을 다중선택 가능하다-->
+            <input type="file" multiple />
+          </li>
+          <li>
+            <input type="hidden" />
+            <!-- input[type=hidden] 이렇게 작성하면 위처럼 된다-->
+          </li>
+        </ul>
+      </fieldset>
+      <input type="submit" value="제출하기" />
+    </form>
+  </body>
+</html>
